@@ -5,7 +5,7 @@
  * Plugin URI: https://master-addons.com
  * Author: Jewel Theme
  * Version: 1.0.0
- * Author URI: https://master-addons.com
+ * Author URI: https://github.com/litonarefin/wp-disable-sitemap
  */
 
 // Exit if accessed directly.
