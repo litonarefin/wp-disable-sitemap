@@ -19,8 +19,6 @@ WordPress 5.5 update comes with default Sitemap for the WordPress user. If you a
 >[All Addons](https://master-addons.com/all-widgets/) | [Support](https://master-addons.com/contact-us/) | [Docs](https://master-addons.com/docs/) | [Tutorials](https://www.youtube.com/watch?v=wXPEl93_UBw&list=PLqpMw0NsHXV9V6UwRniXTUkabCJtOhyIf) | [Upgrade Pro](https://master-addons.com/go/upgrade-pro/)
 >
 > Get 20% Discount now, Coupon Code: ENJOY20  [Purchase Now](https://master-addons.com/go/upgrade-pro/)
-
-
 XML Sitemap helps to index your website in Google or any other search engine. Having multiple sitemaps in a single website is not necessary for the website owner. 
 
 This default Sitemap will support all Post Types, Taxonomies (Category, Tags, any custom taxonomies), Archives. As you have already customized a sitemap for the best SEO practice, you don't need to configure this. 

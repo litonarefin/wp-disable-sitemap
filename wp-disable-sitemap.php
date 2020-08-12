@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Plugin Name: WP Disable Sitemap
  * Description: Disable default sidebar from your WordPress site
