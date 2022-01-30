@@ -1,6 +1,6 @@
 <?php
-require_once 'lib/includes/sdk/FreemiusBase.php';
-require_once 'lib/includes/sdk/Freemius.php';
+require_once 'freemius-php-api/freemius/FreemiusBase.php';
+require_once 'freemius-php-api/freemius/Freemius.php';
 
 $sandbox      = ($argv[6] === 'true');
 $release_mode = !isset($argv[8]) || empty($argv[8]) ? 'released' :  $argv[8];

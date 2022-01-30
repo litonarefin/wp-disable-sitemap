@@ -2,9 +2,10 @@
 # First parameter not mandatory is the folder of the plugin, if not set use the current working directory
 # Second parameter not mandatory is the root file of the plugin, if not set use the foldername of the plugin (not require the extension of the file)
 
+
 rm -rf built
 #mkdir built
-mkdir -p built/package #multiple folder creation
+mkdir -p built #multiple folder creation
 
 if [ "$(uname -s)" = 'Linux' ]; then
     pluginfolder=$(readlink -f "$1")
@@ -12,7 +13,7 @@ else
     pluginfolder=$(readlink "$1")
 fi
 
-output='built/package'
+output='built'
 if [ -z "$1" ]; then
     pluginfolder=$(pwd)
 fi
@@ -30,14 +31,8 @@ if [ ! -f "$fullpathfile" ]; then
     exit 1
 fi
 
-foldername="built/package/$originalfoldername.XXXX"
+foldername="built/$originalfoldername.XXXX"
 mktemp -d "$foldername"
-
-# cd built
-# zip -r adminify.zip adminify/.
-# rm -r adminify #Delete adminify folder
-
-# rm -r "$pluginfolder" #Delete "$pluginfolder" folder
 
 cd "$pluginfolder" || exit
 
