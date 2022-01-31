@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Reference: https://github.com/buttonizer/freemius-deploy
+
 wsd="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 output='/tmp'
 
