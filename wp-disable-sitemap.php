@@ -5,7 +5,7 @@
  * Description: Disable default sidebar from your WordPress site
  * Plugin URI: https://master-addons.com
  * Author: Jewel Theme
- * Version: 1.0.3
+ * Version: 1.0.4
  * Author URI: https://github.com/litonarefin/wp-disable-sitemap
  */
 
@@ -23,7 +23,7 @@ if (!function_exists('jltwds_fs')) {
 
         if (!isset($jltwds_fs)) {
             // Include Freemius SDK.
-            require_once dirname(__FILE__) . '/lib/start.php';
+            require_once dirname(__FILE__) . '/freemius/start.php';
 
             $jltwds_fs = fs_dynamic_init(array(
                 'id'                  => '9810',
@@ -36,6 +36,7 @@ if (!function_exists('jltwds_fs')) {
                 'menu'                => array(
                     'account'        => false,
                 ),
+                'is_live'                   => true,
             ));
         }
 
@@ -48,7 +49,10 @@ if (!function_exists('jltwds_fs')) {
     do_action('jltwds_fs_loaded');
 }
 
-if (!class_exists('\\JLTWDS\\JLT_WDS')) {
-    // Instantiate WP Adminify Class
-    require_once dirname(__FILE__) . '/class-wp-disable-sitemap.php';
+if(jltwds_fs()->can_use_premium_code()){
+    if (!class_exists('\\JLTWDS\\JLT_WDS')) {
+        // Instantiate WP Adminify Class
+        require_once dirname(__FILE__) . '/class-wp-disable-sitemap.php';
+    }    
 }
+
