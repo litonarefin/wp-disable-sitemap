@@ -12,7 +12,7 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Disable WordPress 5.5 default sitemap in your website.
 
 == Description ==
-WordPress 5.9 update comes with default Sitemap for the WordPress user. If you already have a sitemap by SEO plugins or sitemap plugins and you don't want this default WordPress sitemap, then use this plugin. No extra configuration is required. Just install and active the plugin and you are done. 
+WordPress 6.0 update comes with default Sitemap for the WordPress user. If you already have a sitemap by SEO plugins or sitemap plugins and you don't want this default WordPress sitemap, then use this plugin. No extra configuration is required. Just install and active the plugin and you are done. 
 
 > Don't forget to check [Master Addons for Elementor](https://wordpress.org/plugins/master-addons/)
 > Includes 50+ Addons, 15+ Extensions & 1000+ Landing Pages.
