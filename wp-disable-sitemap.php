@@ -5,7 +5,7 @@
  * Description: Disable default sidebar from your WordPress site
  * Plugin URI: https://master-addons.com
  * Author: Jewel Theme
- * Version: 1.0.4
+ * Version: 1.0.5.1
  * Author URI: https://github.com/litonarefin/wp-disable-sitemap
  */
 
