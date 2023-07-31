@@ -5,7 +5,7 @@ Tags: sitemap, disable sitemap, wordpress sitemap disable, disable wp sitemap, w
 Requires at least: 5.5
 Tested up to: 5.6
 Requires PHP: 5.3
-Stable tag: 1.1.5
+Stable tag: 1.1.6.3
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -24,6 +24,9 @@ XML Sitemap helps to index your website in Google or any other search engine. Ha
 This default Sitemap will support all Post Types, Taxonomies (Category, Tags, any custom taxonomies), Archives. As you have already customized a sitemap for the best SEO practice, you don't need to configure this. 
 
 Indexing thin tags, post types, archives in a search engine can be harmful to your ranking. That's why you should get stick with your present best sitemap. You are getting advanced sitemap customization possibilities in your SEO plugins, which not possible in this default one. 
+
+## Our Other Products ##
+[WP Adminify](https://wpadminify.com)
 
 ## Why Use disable sitemap? ##
 

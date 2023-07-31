@@ -14,8 +14,12 @@ if (!class_exists('JLT_WDS')) {
         {
             add_filter('wp_sitemaps_enabled', '__return_false');
             add_action('init', [$this, 'jltwds_init'], 5);
+            // jltwds_fs()->add_filter( 'plugin_icon' , [ $this, 'jltwds_fs_logo_icon' ] );
         }
 
+        public function jltwds_fs_logo_icon(){
+            return plugins_url( '/adminify.svg', __FILE__ ) ;
+        }
         public function jltwds_init()
         {
             remove_action('init', 'wp_sitemaps_get_server');
